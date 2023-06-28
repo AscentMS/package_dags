@@ -2,7 +2,7 @@
 Package airflow dags into a zipfile suitable for deployment.
 
 
-Worflows are added to the root of the zip, while additional directories
+DAGs are added to the root of the zip, while additional directories
 have their path preserved
 """
 import zipfile
